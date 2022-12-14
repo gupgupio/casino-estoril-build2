@@ -1,8 +1,8 @@
 @media only screen and (orientation:portrait) {
     body {
         /*transform: rotate(90deg);*/
-        height: 400px;
-        transform: translate(0%, 120%);
+        height: 800px;
+        transform: translate(0%, 95%);
     }
 }
 
