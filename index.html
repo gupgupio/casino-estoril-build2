@@ -6,6 +6,9 @@
     <title>Unity WebGL Player | Jogo da Memória</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&display=swap" rel="stylesheet">
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -80,11 +83,11 @@
 
         var meta = document.createElement('meta');
         meta.name = 'viewport';
-        //meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
+        meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
         document.getElementsByTagName('head')[0].appendChild(meta);
         container.className = "unity-mobile";
         canvas.className = "unity-mobile";
-        canvas.style.transform = "translate(25%,0)"
+        //canvas.style.transform = "translate(25%,0)"
         canvas.style.width = "1280px";
         canvas.style.height = "100%";
         // To lower canvas resolution on mobile devices to gain some
