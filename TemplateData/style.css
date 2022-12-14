@@ -1,11 +1,23 @@
 @media only screen and (orientation:portrait) {
     body {
         /*transform: rotate(90deg);*/
-        height: 800px;
-        transform: translate(0%, 95%);
+        height: 400px;
+        transform: translate(0%, 120%);
     }
-    
-    #unity-canvas { width: 1280px; height: 100%; transform:translate(0,0)}
+        #unity-canvas {
+            width: 1280px;
+            height: 100%;
+            
+        }
+}
+
+@media only screen and (orientation:landscape) {
+    #unity-canvas{
+        width: 60%;
+        height: 100%;
+        transform: translate(31%, 0);
+    }
+
 }
 
 body { padding: 0; margin: 0 ;font-family: 'Cormorant Garamond', serif;}
